@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 947bd837a38728444be11abacc402de5, type: 3}
+  m_Name: Shoot
+  m_EditorClassIdentifier: 
+  SkillName: Shoot
+  SkillIcon: {fileID: 21300000, guid: c9d3d1c45ba4e2e43b724d594a692411, type: 3}
+  CoolDown: 0.1
+  SkillID: 0
+  SkillDescription: Fires bullets every 0.1s.
+  BulletSpeed: 20
+  bullet: {fileID: 5757053713011988366, guid: 4a25df99a434563478da7cf68d8a1a7c, type: 3}
+  bulletSpawn: {fileID: 0}
